@@ -26,8 +26,19 @@ Noisy images are a challenge to image compression algorithms due to the inherent
 * pip install h5py
 * pip install .
 
-  
 
+## Training
+```bash
+cd codes
+OMP_NUM_THREADS=4 python train.py -opt ./conf/train/<xxx>.yml
+```
+
+## Testing
+```bash
+cd codes
+OMP_NUM_THREADS=4 python test.py -opt ./conf/test/<xxx>.yml
+
+  
 
 
 
