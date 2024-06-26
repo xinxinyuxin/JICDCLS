@@ -41,6 +41,11 @@ OMP_NUM_THREADS=4 python test.py -opt ./conf/test/<xxx>.yml
 ## Citation
 If this work is helpful, please cite it, thanks! >_<
 ```
-
+@article{xie2024joint,
+  title={Joint End-to-End Image Compression and Denoising: Leveraging Contrastive Learning and Multi-Scale Self-ONNs},
+  author={Xie, Yuxin and Yu, Li and Pakdaman, Farhad and Gabbouj, Moncef},
+  journal={arXiv preprint arXiv:2402.05582},
+  year={2024}
+}
 ```
 
